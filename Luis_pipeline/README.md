@@ -3,7 +3,7 @@
 Luis Morgado wrote a pipeline that runs the major steps in a Metabarcoding pipeline. It is available on Saga: 
 ```/cluster/projects/nn9338k/Luis_metabarding_pipeline```
 It contains a set of scripts and dependency codes. 
-He has written a 
+He has written a [summary of the steps](scripts/summary_of_Zazzy_metabarcoding_pipeline.txt)
 
 **Content - interactive scripts:**
 ```

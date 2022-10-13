@@ -5,12 +5,12 @@
 
 
 # summary
-# to star you have to install the pipeline software - go to:
+# to start you have to install the pipeline software - go to:
 /cluster/projects/nn9338k/Luis_metabarding_pipeline/install_Zazzy_pipeline
 
 # Before installing the pipeline you need to load R and	install	one package manually
-# this is necessary to set a personal library to store your packages
-# do this in the terminal manualy
+# this is necessary to set up a personal library to store your packages
+# do this in the terminal manually
 module purge
 module load R/3.5.1-intel-2018b
 R
@@ -20,7 +20,7 @@ R
 install.packages("openxlsx", dependencies=TRUE)
 library(openxlsx)
 
-# then you should be ready to install the needed sfotware.
+# then you should be ready to install the needed software.
 # do:
 bash install_Zazzy_pipeline.sh
 
@@ -28,9 +28,9 @@ bash install_Zazzy_pipeline.sh
 # Before using the pipeline you need to load the needed software
 conda activate zazzy_metbarcoding_pipeline
 
-# the actual scripts summary:
+# summary of the actual script:
 script 1 - demultiplex your samples
-script 2 - remove samples with very low number of reads
+script 2 - remove samples with a very low number of reads
 script 3 - run dada2 for sequence error correction and merging the R1 and R2
 script 4 - ITSx in parallel mode (in case you need to use it)
 script 5 - clustering
@@ -39,7 +39,7 @@ script 7 - Blast
 
 
 ###########################################
-# run the cutadpt script to demultiplex the sample per barcode and primer
+# run the cutadapt script to demultiplex the sample per barcode and primer
 script_1_demultiplex_cutadapt_2_7.sh
 #	to run the script you need: 
 #	(1) a batch_file that contains the names of the files: for R1, R2, fasta file containing R1 sample name, FASTA file containing R2 sample name
