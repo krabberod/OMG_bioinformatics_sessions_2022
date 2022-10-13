@@ -11,14 +11,15 @@ All future plans are tentative.
   - Introduction to linux and the Saga HPC system
   - Introduction to R and Rstudio
     - Some examples and hands-on in R
-  - Overview of the steps in Luis' metabarcoding pipeline
+  - A brief overview of the steps in Luis' metabarcoding pipeline
     - ```/cluster/projects/nn9338k/Luis_metabarding_pipeline```
-  - If time allows: Start with the DADA2 algorithm
+ 
 
 ### Session 3 - Week 42
-- 
-- DADA2
-
+- A closer look into 
+  - Trimming with cutadapt
+  - DADA2
+  - 
 --- 
 > Try again. Fail again. Fail better.   
 > \- Samuel Beckett, *Worstwards ho*. 
