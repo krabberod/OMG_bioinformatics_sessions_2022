@@ -7,15 +7,13 @@ All future plans are tentative.
 
 
 ### Session 2 - Friday 14/10-2022. 10:00-12:00
-- The plan:
-  - Introduction to linux and the Saga HPC system
-  - Introduction to R and Rstudio
-    - Some examples and hands-on in R
-  - A brief overview of the steps in Luis' metabarcoding pipeline
-    - ```/cluster/projects/nn9338k/Luis_metabarding_pipeline```
- 
+  - Introduction to Linux and the Saga HPC system
 
-### Session 3 - Week 42
+### Session 3 - Wednesday 19 oct. 13:00-15:00
+- Introduction to R and Rstudio
+- Some examples and hands-on in R
+- A brief overview of the steps in Luis' metabarcoding pipeline
+   ```/cluster/projects/nn9338k/Luis_metabarding_pipeline```
 - A closer look into 
   - Trimming with cutadapt
   - DADA2
