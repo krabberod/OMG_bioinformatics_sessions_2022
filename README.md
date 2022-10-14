@@ -9,7 +9,7 @@ All future plans are tentative.
 ### Session 2 - Friday 14/10-2022. 10:00-12:00
   - [Introduction to Linux](lectures/Intro_to_unix_short.pdf) and the Saga HPC system
 
-### Session 3 - Wednesday 19 oct. 13:00-15:00
+### Session 3 - Wednesday 19/10-2022. 13:00-15:00
 - Introduction to R and Rstudio
 - Some examples and hands-on in R
 - A brief overview of the steps in Luis' metabarcoding pipeline
