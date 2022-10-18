@@ -1,6 +1,6 @@
 ---
 title: "Introduction to R and Rstudio"
-author: "Anders K. Krabberød"
+author: "Anders K. Krabberød and Ramiro Logares"
 date: "October 2022"
 output: html_notebook
 ---
