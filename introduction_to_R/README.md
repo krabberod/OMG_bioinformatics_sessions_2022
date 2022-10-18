@@ -6,6 +6,6 @@
 - Simple R notebook examples [click here](Notebook_example.Rmd)
 ### Computer lab with examples 
 For those who want more training and examples in R. The followinf scripts contains code for how to do several analyses often used in molecular ecology (Alpha and beta diversity, PCA, GNMDS, Rarifaction, models election etc.): 
-- [Computer lab I](Computer_ab/Computer_lab_I.Rmd)
-- [Computer lab II](Computer_ab/Computer_lab_II.Rmd)
-- [Computer lab III](Computer_ab/Computer_lab_III.Rmd)
+- [Computer lab I](Computer_lab/Computer_lab_I.Rmd)
+- [Computer lab II](Computer_lab/Computer_lab_II.Rmd)
+- [Computer lab III](Computer_lab/Computer_lab_III.Rmd)
