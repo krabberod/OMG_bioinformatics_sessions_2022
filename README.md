@@ -10,14 +10,15 @@ All future plans are tentative.
   - [Introduction to Linux](lectures/Intro_to_unix_short.pdf) and the Saga HPC system
 
 ### Session 3 - Wednesday 19/10-2022. 13:00-15:00
-- Introduction to R and Rstudio
+- [Introduction to R and Rstudio](introduction_to_R)
 - Some examples and hands-on in R
-- A brief overview of the steps in Luis' metabarcoding pipeline
-   ```/cluster/projects/nn9338k/Luis_metabarding_pipeline```
-- A closer look into 
-  - Trimming with cutadapt
-  - DADA2
-  - 
+- *If time permits (if not we will do it in the next session):*
+  - A brief overview of the steps in Luis' metabarcoding pipeline
+     ```/cluster/projects/nn9338k/Luis_metabarding_pipeline```
+  - A closer look into 
+    - Trimming with cutadapt
+    - DADA2 algorithm and cluster methods
+    - 
 --- 
 > Try again. Fail again. Fail better.   
 > \- Samuel Beckett, *Worstwards ho*. 
