@@ -69,12 +69,12 @@ Basic datatypes on which R objects are built
 
 **Numeric:** numbers with decimals
 ```{r}
-mynumber<-66.6
+mynumber <- 66.6
 print(mynumber)
 class(mynumber) # check the type
 
 #Integer: numbers with no decimals
-mynumber.int<-as.integer(mynumber)
+mynumber.int <- as.integer(mynumber)
 class(mynumber.int)
 mynumber.int
 ```
@@ -82,14 +82,14 @@ mynumber.int
 
 **Character**: can be a letter or a combination of letters enclosed by quotes
 ```{r}
-mychar<-"bioinfo course"
+mychar <- "bioinfo course"
 mychar
 class(mychar)
 ```
 
 **Logical**: a variable that can be TRUE or FALSE (boolean)
 ```{r}
-im.true<-TRUE
+im.true <- TRUE
 im.true
 class(im.true)
 ```
@@ -98,7 +98,8 @@ class(im.true)
 to generate a factor, we'll use a vector defined with the function ```c()```
 
 ```{r}
-myfactor<-factor(c("good", "bad", "ugly", "good","good","bad", "ugly"))
+myfactor <- factor(c("good", "bad", "ugly", 
+                     "good","good","bad", "ugly"))
 myfactor
 class(myfactor)
 levels(myfactor) # this can be used to check the levels of a factor
@@ -111,10 +112,10 @@ class(levels(myfactor))
 It can contain elements of various data types (e.g.vectors,functions,matrices,another list)
 Example with three different data types in one list
 ```{r}
-list1<-c(1:5) # integer vector
-list2<-factor(1:5) # factor vector
-list3<-letters[1:5]
-grouped.lists<-list(list1,list2,list3)
+list1 <- c(1:5) # integer vector
+list2 <- factor(1:5) # factor vector
+list3 <- letters[1:5]
+grouped.lists <- list(list1,list2,list3)
 grouped.lists
 ```
 
