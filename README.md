@@ -12,8 +12,9 @@ All future plans are tentative.
 ### Session 3 - Wednesday 19/10-2022. 13:00-15:00
 - [Introduction to R and Rstudio](introduction_to_R)
 - Some examples and hands-on in R
-- *If time permits (if not we will do it in the next session):*
-  - A brief overview of the steps in Luis' metabarcoding pipeline
+- 
+### Session 4 - ??
+  - The steps in Luis' metabarcoding pipeline
      ```/cluster/projects/nn9338k/Luis_metabarding_pipeline```
   - A closer look into 
     - Trimming with cutadapt
