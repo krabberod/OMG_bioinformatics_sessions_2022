@@ -13,13 +13,18 @@ All future plans are tentative.
 - [Introduction to R and Rstudio](introduction_to_R)
 - Some examples and hands-on in R
 - 
-### Session 4 - ??
+### Session 4 - Wednesday 01/11-2022. 10:00-12:00
+  - Clustering, DADA2, ASVs and OTUs. Click [here for slides](lectures/Clustering_lecture.pdf)
+
+### Session 5 - ?
   - The steps in Luis' metabarcoding pipeline
      ```/cluster/projects/nn9338k/Luis_metabarding_pipeline```
   - A closer look into 
-    - Trimming with cutadapt
-    - DADA2 algorithm and cluster methods
-    - 
---- 
+    - Trimming and demultiplexing with cutadapt
+    - DADA2 in R
+    - Clustering with VSEARCH
+
+
+  --- 
 > Try again. Fail again. Fail better.   
 > \- Samuel Beckett, *Worstwards ho*. 
