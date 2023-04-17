@@ -18,3 +18,5 @@ module load BLAST+/2.8.1-foss-2018b
 
 blastn -db /cluster/projects/nn9338k/Luis_metabarding_pipeline/databases/COI/NCBI_BOLD_merged/Both_databases/NCBI_BOLD_derep_2.fasta -query DADA2_noChime_raw.otus -evalue 0.0001 -outfmt "6 qseqid sseqid pident qcovs evalue bitscore length mismatch gapopen qstart qend sstart send" -max_target_seqs 1 -num_threads 8 -out blast_hits_ASVs_to_NCBI_BOLD.txt
 
+qseqid sseqid pident qcovs
+
